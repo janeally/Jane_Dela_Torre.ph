@@ -1,0 +1,98 @@
+body{
+    background-color:rgb(136, 122, 122)
+}
+
+.services
+{color:white;
+    padding:50px;
+    display:flex
+    
+}
+
+.services .text
+{
+width:70%;
+margin:1.5rem auto;
+text-align:center;
+}
+.services .item 
+{
+    text-align:center;
+    padding:1.5rem 0 4rem 0;
+    background-color:grey;
+    margin:1.5rem 0;
+    cursor:pointer;
+    
+}
+
+.services .item span{
+    font-size:5rem;
+    color:blue;
+}
+
+.services .item h2{
+    text-transform:uppercase;
+    font-size:1rem;
+    font-weight:600;
+    letter-spacing:3px;
+    position:relative;
+
+}
+
+.services .item h2:after
+{
+    content:"";
+    position:absolute;
+    bottom:0;
+    background-color:green;
+    width:50px;
+    height:0.5px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.services .item:hover{
+    background-color:green;
+}
+
+.services .item:hover span{
+    color:white
+
+}
+
+.services .item:hover h2{
+    color:black;
+
+}
+
+.services .item:hover h2::after
+{
+    background-color:black;
+}
+
+.services .item p
+{
+    color:rgba(225, 225, 225, 0.6)
+    
+    
+}
+
+.services p{
+    padding:20px;
+    justify-content:center;
+    align-content:center;
+}
+
+.services .row 
+{
+    display: flex;
+    flex-wrap:wrap;
+
+
+}
+
+.services .item{
+    flex:0 0 calc(50% - 2rem);
+    margin:1rem;
+}
+
