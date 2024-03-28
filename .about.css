@@ -80,3 +80,28 @@ span
       text-decoration: none;
     
 }
+
+element.style {
+}
+.profile img {
+    width: 50%;
+    border-radius: 50%;
+    border: .5rem solid rgb(25, 81, 155);
+    border-top-width: 0.5rem;
+    border-right-width: 0.5rem;
+    border-bottom-width: 0.5rem;
+    border-left-width: 0.5rem;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(25, 81, 155);
+    border-right-color: rgb(25, 81, 155);
+    border-bottom-color: rgb(25, 81, 155);
+    border-left-color: rgb(25, 81, 155);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
